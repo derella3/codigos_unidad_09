@@ -1,0 +1,21 @@
+.botones {
+    background-color: pink;
+}
+
+.botones ul {
+    display: inline-flex;
+}
+
+.botones li {
+    padding: 15px;
+    list-style: none;
+}
+
+.botones li:hover {
+    background-color: blue;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

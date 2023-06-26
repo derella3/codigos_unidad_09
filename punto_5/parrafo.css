@@ -1,0 +1,60 @@
+body {
+    background-color: #202020;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#parrafochimba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+p {
+    line-height: 33px;
+    color: #ffffff;
+  }
+
+.p1 {
+    color: #00c400;
+    text-decoration: underline;
+}
+
+.p2 {
+    color: #ff1c1c;
+    font-weight: bold;
+}
+
+.p3 {
+    text-decoration: underline overline;
+}
+
+.p4 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.p5 {
+    color: #006eff;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.p6 {
+    color: #ff1c1c;
+    text-decoration: underline;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.invisible {
+    color: #202020;
+    font-size: 48px;
+}

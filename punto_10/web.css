@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font: 1.2em/1.2 Helvetica, aria, sans-serif;
+    margin: 0 3%;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin: .9em 0 0 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 1.5em 0 0 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    background: black;
+    border-radius: 5px;
+    color: white;
+    margin: 0 0 25px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-size: .8em;
+}
+
+/*En este fragmento de css, se implementa la regla "@media" para dar un estilo a la web cuando la resolucion
+supera el ancho de 794 pixeles, este cambio tiene validez hasta donde se especifique*/
+@media screen and (min-width: 794px) {
+    body {
+        background: rgba(0, 0, 255, .2);
+        margin: 25px 6%;
+    }
+
+    figure {
+        float: left;
+        width: 45%;
+        margin-right: 4.5%;
+    }
+}
+
+/*Aqui se repite la regla para agregar un nuevo estilo cuando el ancho de la web iguala o supera los 1020 pixeles
+así remplazando la anterior regla*/
+@media screen and (min-width: 1020px) {
+    body {
+        background: rgba(0, 255, 0, .2);
+        margin: 25px 10%;
+        max-width: 1130px;
+    }
+
+    figure {
+        width: 30%;
+        margin-right: 2.5%;
+    }
+}

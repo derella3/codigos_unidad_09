@@ -1,0 +1,40 @@
+body {
+    background-color: #202020;
+}
+h1 { 
+    font-family: 'Franklin Gothic Medium';
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.borde {
+    border-collapse: collapse;
+    width: 60%;
+    background-color: #ffff00;
+    margin: 0 auto;
+}
+
+.borde {
+    border: 1px dotted #000000;
+}
+
+.borde td {
+    border: 1px dotted #000000;
+    padding: 2px;
+}
+
+.borde th {
+    text-align: center;
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.rborde td {
+    border-bottom: 2px dotted #ff0000;
+}
+
+#eso, #dad {
+    font-size: 12px;
+}

@@ -1,0 +1,104 @@
+body {
+    background-color: #202020;
+}
+div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1 {
+    width: 95px;
+    height: 80px;
+    border-radius: 25%;
+    position: relative;
+    background-color: red;
+    animation-name: contorno;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes contorno {
+    0% {
+        background-color: red;
+        color: white;
+        left: 30%;
+        top: 30%;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 60%;
+        top: 30%;
+    }
+
+    50% {
+        background-color: aqua;
+        color: black;
+        left: 60%;
+        top: 330%;
+    }
+
+    75% {
+        background-color: blueviolet;
+        color: white;
+        left: 30%;
+        top: 330%;
+    }
+
+    100% {
+        background-color: red;
+        color: white;
+        left: 30%;
+        top: 30%;
+    }
+}
+
+.div2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    background-color: red;
+    animation-name: relleno;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes relleno {
+    0% {
+        background-color: red;
+        color: white;
+        left: 40%;
+        top: 40%;
+    }
+
+    25% {
+        background-color: blue;
+        color: white;
+        left: 52%;
+        top: 40%;
+    }
+
+    50% {
+        background-color: green;
+        color: black;
+        left: 52%;
+        top: 220%;
+    }
+
+    75% {
+        background-color: yellow;
+        color: black;
+        left: 40%;
+        top: 220%;
+    }
+
+    100% {
+        background-color: red;
+        color: ghostwhite;
+        left: 40%;
+        top: 40%;
+    }
+}
